@@ -20,4 +20,5 @@ class Activity(Base):
     deals = Column(String, nullable=True)
     contacts = Column(String, nullable=True)
     companies = Column(String, nullable=True)
-    created_date = Column(Date, nullable=True)
+    # created_date = Column(Date, nullable=True)
+
